@@ -57,6 +57,31 @@ body {
 }
 
 .badge-ai {
+  /* Moved inline styles from index.html */
+  .hero-img-maxheight {
+    max-height: 280px;
+  }
+
+  .search-resto-maxwidth {
+    max-width: 220px;
+  }
+
+  .ai-suggestion-hidden {
+    display: none;
+  }
+
+  .ai-star-color {
+    color: #e67e22;
+  }
+
+  .cart-items-list-scroll {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  .toast-zindex {
+    z-index: 1100;
+  }
   background: #8e44ad;
   color: white;
   font-size: 0.7rem;
